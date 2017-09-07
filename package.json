@@ -4,7 +4,8 @@
   "description": "",
   "main": "MANA.js",
   "scripts": {
-    "dev": "npm run build && node lib/MANA.js",
+    "simple": "npm run build && node lib/simple/index.js",
+    "splashback": "npm run build && node lib/splashback/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib"
   },
